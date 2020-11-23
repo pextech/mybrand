@@ -1,0 +1,931 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    margin:0px;
+    background-color:#171717;
+    max-width: 100%;
+    overflow-x: hidden;
+ 
+
+}
+
+  
+.brand img{
+    height:50px;
+    
+    
+}
+.container{
+    
+    justify-content: space-between;
+  width: 100%;
+
+background-image: url('../assets/test12.jpg');
+background-size:cover;
+background-repeat: no-repeat;
+opacity:1;
+width: 100%;
+background-position: center;
+height: 300px;
+
+
+ 
+}
+.banner{
+
+    position: absolute;
+    width:30%;
+    height:50px;
+    align-self: flex-end;
+    top: 38%;
+    color: #eeee;
+    margin-left: 25px;
+    
+
+}
+.blogArea{
+
+    position: absolute;
+    margin-left: 25px;
+    width:40%;
+    height:50px;
+    align-self: flex-end;
+    top: 32%;
+    text-align: left;
+    font-size: 2em;
+    color: #ccc;
+   
+
+}
+.nav-wrapper > .container > .center > ul {
+
+  
+   
+    width: fit-content;
+    float: right;
+    margin-right: 30px;
+    
+}
+.nav-wrapper > .container > .center > ul > li {
+    margin:5px;
+  padding: 5px;
+    display: inline;
+    
+}
+.nav-wrapper > .container > .center > ul > li > a {
+color: #fefefe;
+text-decoration: none;
+}
+.nav-wrapper > .container > .center > ul > a > .loginBtn {
+    border-radius:30px;
+    
+    border: 1px solid #C0D05F;
+    width:80px;
+    margin-top:0;
+    height: 30px;
+    background-color: #171717;
+    margin:3px;
+
+}
+
+.nav-wrapper > .container > .center > ul > a > .loginBtn {
+    color:#C0D05F;
+    background-color: transparent;
+    
+}
+.nav-wrapper > .container > .center > ul > a > .loginBtn:hover{
+    color:#fefefe;
+    background-color: #C0D05F;
+    border : 0px;
+}
+
+  
+
+.nav-wrapper > .container > .center > ul >li{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+  
+
+}
+
+.nav-wrapper-link a{
+    height:22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s ;
+    
+}.nav-wrapper-link a:active{
+    
+    color:#C0D05F;
+   
+ }
+
+.nav-wrapper-link a{
+    text-decoration: none;
+    color:#fff;
+    transition: color 0.5s;
+    transition: border-bottom 0.5s ;
+ }
+ .nav-wrapper-link button{
+     border-radius:30px;
+     border: 1px solid #C0D05F;
+     width:80px;
+     margin-top:0;
+     height: 30px;
+     background-color: #171717;
+ }
+ ul > .nav-wrapper-link a:hover{
+   border-bottom: 1px solid #333 ;
+}
+ul > .nav-wrapper-link a:hover{
+    color:white;
+    border-bottom: 1px solid white ;
+}
+footer{
+    margin-top:20%;
+    text-align: center;
+    color:#cccc;
+}
+.nav-wrapper > .container > .center > ul > .mobile{
+    display: none;
+}
+
+.nav-wrapper > .container > .nav-wrapper-content {
+        
+        text-align: center;
+        
+     
+   
+      font-size:2.5em;
+        position: absolute;
+        width:50%;
+        height:200px;
+   
+        top: 14%;
+        left: 20%;
+        text-align: center;
+        color: rgb(201, 200, 200);
+        font-weight:bold;
+        font-style: italic;
+    
+        
+    }
+
+    
+
+
+    .nav-wrapper > .container > .nav-wrapper-content >.nav-wrapper-content-text > p{
+       font-size: 2em;
+        
+    }
+
+
+
+
+.container-1{
+    
+    max-width: 90%;
+    padding: 15px;
+    
+    margin:auto;
+    
+    
+}
+
+.readMore{
+    background-color: #333;
+    float: center;
+    width: 150px;
+    height: 50px;
+    margin-left: 35%;
+    margin-top: 10px;
+    color:#C0D05F;
+    border: 1px solid #333;
+
+}
+.readMore a{
+    
+    color:#C0D05F;
+    text-decoration: none;
+    
+
+}
+.readMore a:hover{
+    
+    color:#ccc;
+
+
+}
+
+.social{
+    height:15px;
+}
+
+.container-1 > .blogPost >.blogDetail> .blogContainer > .authorDetails >  .blogState >  p{
+color:#C0D05F;
+text-align: left;
+width:150px;
+margin-top: 5px;
+margin-left: 20px;
+font-size: 12px;
+text-decoration: none;
+
+}
+.container-1 > .blogPost > .blogDetail> .blogContainer >.authorDetails > .social > img{
+ height:15px;
+
+}
+.container-1 > .blogPost > .blogDetail> .blogContainer >.authorDetails > .blogStateIcon >  img{
+height:14px;
+float: left;
+
+
+}
+
+.container-1 > .blogPost > .blogDetail> .blogContainer > .authorDetails {
+   
+    height:150px;
+    width:20%;
+  
+}
+.blogContainer{
+    padding-top: 10px;
+
+}
+/* 
+
+.container-1 > .blogPost > .authorDetails > .blogDetail {
+    border:2px dashed green;
+    height:200px;
+    width:100%;
+}
+
+
+
+.container-1 > .blogPost{
+    height:200px;
+     width:20%;
+     border:2px dashed pink;
+   
+    
+} */
+.container-1 > .blogPost > .blogDetail   {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container-1 > .blogPost > .blogDetail > .blogContainer   {
+    display: flex;
+    flex-direction: row;
+    
+}
+.container-1 > .blogPost  {
+    display: flex;
+    flex-direction: row;
+
+}
+.container-1 > .blogPost > .blogDetail > .blogContainer > .blogPictureSection {
+
+    width:100%;
+    float: center;
+    margin-left:20px;
+    
+}
+.container-1 > .blogPost > .blogDetail  {
+
+    width: 70%;
+    
+}
+.container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPicture >a > img{
+    height:500px;
+    width:100%;
+
+    
+}
+.container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >a >p{
+ color:#ccc;
+ text-decoration: none;
+    
+}
+.container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >p{
+    color:#ccc;
+    text-decoration: none;
+       
+   }
+.container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.notice{
+    color:#ccc;
+    background-color: #555;
+    padding: 15px;
+    margin-top: 20px;
+  
+       
+   }
+   .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.noticePics {
+    
+display: flex;
+margin-top: 20px;
+margin-bottom: 20px;
+justify-content: space-between;
+
+         
+     }
+   .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.noticePics > img{
+    
+  height:150px;
+  width:250px;
+  margin:10px;     
+
+   }
+
+
+   .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.otherBlogs{
+
+    display: flex; 
+    justify-content: space-between;  
+    color: rgb(212, 212, 212);
+    margin-top: 20px;
+  
+     }
+     .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.otherBlogs >.prevPost{
+
+        display: flex;   
+        }
+         .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.otherBlogs >.nextPost{
+
+            display: flex;   
+          
+             }
+
+             .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.otherBlogs > .prevPost >.postPic > img{
+                 height:70px;
+                 width:70px;
+                 margin-left:10px;
+             }
+             .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.otherBlogs > .prevPost >.postTitle{
+               margin-left: 10px;
+                
+            }
+             .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.otherBlogs > .prevPost >.postTitle > p >a{
+                color:#ccc;
+                text-decoration: none;
+                
+            }
+            .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.otherBlogs > .nextPost >.postTitle > p>a{
+                color:#ccc;
+                text-decoration: none;
+                
+            }
+            .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.otherBlogs > .nextPost >.postTitle > a{
+                color:#C0D05F;
+                text-decoration: none;
+                
+            }
+            .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.otherBlogs > .prevPost >.postTitle > a{
+                color:#C0D05F;
+                text-decoration: none;
+                
+            }
+             .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.otherBlogs > .nextPost >.postPic > img{
+                height:70px;
+                width:70px;
+                margin-left:10px;
+
+
+            }
+            .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.commentBlock {
+                background-color: #333;
+                margin-top: 20px;
+                padding:15px;
+            }
+            .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.commentBlock >.blockTitle > p {
+                text-align: center;
+                padding-top:20px;
+                padding-bottom:20px;
+                color:#C0D05F;
+                font-weight: bold;
+                font-size: 1.2em;
+
+
+            }
+
+            .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.commentBlock >.commentSection > .commentContainer {
+                display: flex;
+            }
+            
+            .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.commentBlock >.commentSection >.commentContainer>.commentDetails {
+                display: flex;
+                flex-direction: row; 
+            }
+            .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.commentBlock >.commentSection >.commentContainer>.commentDetails > .userDetails {
+                margin-left: 10px;
+                margin-top: 20px;
+                color:#ccc;
+            }
+            .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.commentBlock >.commentSection >.commentContainer>.commentDetails > .commentPic > img {
+            height:70px;
+            margin-top: 20px;
+            }
+            .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.commentBlock >.commentSection >.commentContainer> button {
+                background-color: #C0D05F;
+                border: 1px solid #C0D05F;
+                height:40px;
+                width: 100px;
+                margin-top: 40px;
+                margin-left: 5px;
+                color: #fefefe;
+                
+                }
+
+                .userDetails div{
+                    color:#C0D05F;
+                    }
+           
+                .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.replyBlock {
+                    background-color: #333;
+                    margin-top: 20px;
+                    padding:15px;
+                }
+                .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.replyBlock>.replyTitle > p{
+                    text-align: center;
+                    padding-top:20px;
+                    padding-bottom:20px;
+                    color:#C0D05F;
+                    font-weight: bold;
+                    font-size: 1.2em;
+    
+                }
+                .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.replyBlock>.replyForm > form >input {
+                    color: #ffff;
+                    padding: 20px;
+                }
+                .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.replyBlock>.replyForm > form >textarea {
+                    color: #ffff;
+                    padding: 20px;
+                }
+               
+                .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.replyBlock>.replyForm > form > .replyName{
+                    background-color: #555;
+                    width: 49%;
+                    border: 1px solid #555;
+                    margin-bottom: 20px;
+                    height:40px;
+                color: #fff;
+                 }
+                 .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.replyBlock>.replyForm > form > .replyEmail{
+
+                    background: url("../assets/email.png") no-repeat right 10px center ;
+                    background-size: 20px;
+                    color: #fff;
+                    background-color: #666;
+                    border: 1px solid #666;
+                }
+                 .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.replyBlock>.replyForm > form > .replyEmail{
+                    background-color: #555;
+                    border: 1px solid #555;
+                   margin-bottom: 20px;
+                    height:40px;
+                    width: 49%;
+     
+                 }
+                 .reply{
+                    background-color: #555;
+                    border: 1px solid #555;
+                   margin-bottom: 20px;
+                    height:40px;
+                    width: 100px;
+                    float: right;
+                    display: none;
+     
+                 }
+                 #alert {
+                    color: rgb(226, 57, 57);
+                    font-size: 12px;
+                    margin-left: 20px;
+                    display: none;
+                    margin-bottom:20px;
+                    }
+                 .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.replyBlock>.replyForm > form > .replyTextArea{
+                    background-color: #555;
+                    border: 1px solid #555;
+                   margin-bottom: 20px;
+                    color: #fff;
+                    width: 100%;
+     
+                 }
+ 
+
+                .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.replyBlock>.replyForm > form > input::placeholder{
+                   color:#ccc;
+                   padding: 15px;;
+
+                }
+                .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.replyBlock>.replyForm > form > textarea::placeholder{
+                    color:#ccc;
+                    padding: 15px;;
+                    
+ 
+                 }
+                 .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.replyBlock>.replyForm > form > button {
+                    background-color: #C0D05F;
+                    border: 1px solid #C0D05F;
+                    height:40px;
+                    width: 150px;
+                    margin-bottom: 10px;
+                    color: #fefefe;
+                    float: center;
+                    }
+
+.container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >a {
+    
+    text-decoration: none;
+       
+   }
+  
+.theColor{
+    color:#C0D05F;
+    margin:20px;
+   
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.theColor:hover{
+    color:#ccc;
+    
+
+}
+
+.container-1 > .blogPost >  .sideFeatures {
+
+    width:30%;
+    margin-left: 10px;
+    padding-left:10px;
+    
+    
+}
+.container-1 > .blogPost >  .sideFeatures > .searchBox {
+
+ 
+  height: 180px;
+  background-color: #333;
+  margin-top: 20px;
+
+}
+.container-1 > .blogPost >  .sideFeatures > .searchBox > .searchTitle > p {
+
+    color: #ccc;
+    font-weight:bold;
+    font-size: 15px;
+text-align: center;
+}
+.container-1 > .blogPost >  .sideFeatures > .searchBox > .searchForm {
+margin:20px;
+
+}
+.container-1 > .blogPost >  .sideFeatures > .searchBox > .searchForm > input {
+
+    color: #ccc;
+   background-color: #555;
+   border: 1px solid #555;
+
+   width:70%;
+   height:40px;
+
+}
+.container-1 > .blogPost >  .sideFeatures > .searchBox > .searchForm > input::placeholder {
+
+    color: #ccc;
+    text-align: center;
+   
+}
+.container-1 > .blogPost >  .sideFeatures > .searchBox > .searchForm > input:active {
+   border: 1px solid #555;
+    
+   
+}
+.container-1 > .blogPost >  .sideFeatures > .searchBox > .searchForm > .search {
+    border: 1px solid #C0D05F;
+
+    background-color: #C0D05F;
+   width:20%;
+   height:40px;
+   color:#fff;
+  
+}
+.container-1 > .blogPost >  .sideFeatures > .searchBox > .subscribeForm > form >  .subscribe {
+    border: 1px solid #C0D05F;
+
+    background-color: #C0D05F;
+   width:90%;
+   height:40px;
+   color:#fff;
+   margin-left: 20px;
+   
+  
+}
+.container-1 > .blogPost >  .sideFeatures > .searchBox > .subscribeForm > form > input {
+
+    background: url("../assets/email.png") no-repeat right 10px center ;
+    background-size: 20px;
+    
+    background-color: #666;
+    border: 1px solid #666;
+}
+
+.container-1 > .blogPost >  .sideFeatures > .searchBox > .subscribeForm > form > input {
+
+    
+   background-color: #555;
+   border: 1px solid #555;
+color:#cccc;
+   width:90%;
+   height:40px;
+   margin-left: 20px;
+
+}
+.container-1 > .blogPost >  .sideFeatures > .searchBox > .subscribeForm >form> input::placeholder {
+color: rgb(209, 209, 209);
+text-align: center;
+ 
+ }
+
+ #success {
+    color: rgb(57, 206, 64);
+    font-size: 12px;
+    margin-left: 20px;
+    display: none;
+    }
+
+.container-1 > .blogPost > .sideFeatures > .categories > .categoriesTitle {
+    color: #ccc;
+    text-align: center;
+
+}
+.container-1 > .blogPost > .sideFeatures > .categories {
+    margin-top:10px;
+    background-color: #333;
+    padding:15px;
+    margin-top: 20px;
+
+}
+.container-1 > .blogPost > .sideFeatures > .categories > .categoriesItem > ul > li {
+    list-style: none;
+margin:20px;
+border-bottom: 1px solid #C0D05F;
+padding-bottom: 10px;
+}
+.container-1 > .blogPost > .sideFeatures > .categories > .categoriesItem > ul > li > a{
+    text-decoration: none;
+color: #C0D05F;
+
+}
+.container-1 > .blogPost > .sideFeatures > .categories > .categoriesItem > ul > li > a:hover{
+    
+color: #ccc;
+
+}
+
+.container-1 > .blogPost > .sideFeatures > .popularPost > .popularPostContainer > .popularPostItems > .popularPostPicture > a > img{
+    
+    width:100px;
+    height:70px;
+    margin-right:20px;
+    margin-bottom: 10px;;
+}
+.container-1 > .blogPost > .sideFeatures > .popularPost > .popularPostContainer > .popularPostItems > .popularPostDetails > a{
+    
+   text-decoration:none ;
+   color: #C0D05F;
+
+}
+.container-1 > .blogPost > .sideFeatures > .popularPost > .popularPostContainer > .popularPostItems > .popularPostDetails > a:hover{
+    
+    text-decoration:none ;
+    color: #ccc;
+ 
+ }
+.container-1 > .blogPost > .sideFeatures > .popularPost > .popularPostContainer > .popularPostItems > .popularPostDetails > p{
+
+    color: #ccc;
+ 
+ }
+ .container-1 > .blogPost > .sideFeatures > .popularPost > .popularPostContainer > .popularPostItems {
+    
+    display: flex;
+   
+ 
+ }
+
+ .container-1 > .blogPost > .sideFeatures > .popularPost  {
+    
+    background-color: #333;
+padding:15px;
+margin-top:20px;
+ }
+ .container-1 > .blogPost > .sideFeatures > .popularPost >  .popularPostTitle {
+color:#cccc;
+text-align: center;
+margin-bottom: 20px;
+ 
+ }
+.blogDetail > .blogPagination > .pagination > ul >  .active {
+
+        border-left: 1px solid #C0D05F;
+        border-right: 1px solid #C0D05F;
+        background-color: transparent;
+            
+             }
+ .blogDetail > .blogPagination > .pagination > ul > li > a{
+text-decoration: none;
+color:#C0D05F;
+font-size: 1em;
+text-align: center;
+font-weight: bold;
+margin-left: 5px;
+
+ }
+ .blogDetail > .blogPagination > .pagination > ul > li > a:hover{
+    
+    color:#ccc;
+    border-bottom: 1px solid #ccc ;
+    
+     }
+ .blogDetail > .blogPagination > .pagination > ul > li {
+list-style: none;
+display:inline;
+
+margin:5px;
+    
+     }
+      .blogDetail > .blogPagination > .pagination > ul {
+
+text-align: center;
+
+margin-top:50px;
+margin-left: 30px;
+    
+     }
+     
+            
+            
+        
+
+
+@media only screen and (max-width:870px)  {
+
+
+    .reply{ 
+       display:none;
+
+     }
+*{
+    font-size:12px;
+}
+
+    .nav-wrapper > .container > .center > ul > .go{
+        
+        display: none;
+    }
+    .nav-wrapper > .container > .center > ul > .mobile{
+        display: none;
+    }
+    
+    .nav-wrapper > .container > .nav-wrapper-content {
+        
+       
+      font-size:1.5em;
+       
+        width:60%;
+        height:200px;
+    color: rgb(248, 248, 248);
+        top: 15%;
+        left: 20%;
+    
+        
+    }
+    .container-1 > .blogPost   {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-1 > .blogPost > .blogDetail > .blogContainer {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .container-1 > .blogPost > .sideFeatures  {
+      width: 100%;
+      margin-top: 30px;
+        
+    }
+    .container-1 > .blogPost > .blogDetail > .blogPictureSection {
+       
+        width:100%;
+        
+        
+    }
+    .container-1 > .blogPost > .blogDetail  {
+       
+        width:100%;
+        
+        
+        
+        
+    }
+    .container{
+    
+    
+    opacity:0.9;
+
+    background-position: bottom;
+    height: 300px;
+    
+    
+     
+    }
+    .readMore{
+       
+        margin-left: 25%;
+        
+    
+    }
+    .blogArea{
+
+       
+        margin-left: 25px;
+        width:40%;
+        top: 32%;
+     
+       
+    
+    }
+
+
+    .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPicture >a > img{
+        height:300px;
+        width:90%;
+    
+        
+    }
+
+    .blogDetail > .blogPagination > .pagination > ul > li > a{
+        font-size:12px;
+    }
+    .container-1 > .blogPost > .blogDetail>.blogContainer > .authorDetails {
+       
+        margin-left: 30px;
+        height:100px;
+        width:100%;
+    }
+    .blogContainer{
+        padding-top: 40px;
+    }
+    .blogArea{
+
+       
+        font-size: 1.2em;
+        
+       
+    
+    }
+
+    .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.noticePics > img{
+    
+        height:150px;
+        width:270px;
+        margin:10px;     
+      
+         }
+      
+    .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.noticePics {
+    
+flex-direction: column;
+        
+                 
+             }
+             .go{
+                 display: none;
+             }
+             .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.replyBlock>.replyForm > form > .replyEmail{
+                background-color: #555;
+                border: 1px solid #555;
+               margin-bottom: 20px;
+                height:40px;
+                width: 100%;
+ 
+             }
+             .container-1 > .blogPost > .blogDetail >.blogContainer > .blogPictureSection > .blogPictureContent >.replyBlock>.replyForm > form > .replyName{
+                background-color: #555;
+                border: 1px solid #555;
+               margin-bottom: 20px;
+                height:40px;
+                width: 100%;
+ 
+             }
+}

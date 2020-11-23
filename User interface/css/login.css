@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    margin:0px;
+   
+    max-width: 100%;
+    overflow-x: hidden;
+ background-image: url('../assets/test122.jpg');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 750px;
+
+}
+
+.loginSection{
+   
+   opacity: 0.9;
+    border:1px solid #333;
+    background-color: #333;
+    width:50%;
+    height:fit-content;
+    margin-top: 20px;
+    margin-left: 25%;
+    padding: 20px;
+   
+    
+}
+
+.loginSection > .loginIcon > img{
+height: 150px;
+margin-left: 37%;
+    
+}
+ .loginTitle > p{
+   color: #C0D05F;
+   
+   font-size: 1.5em;
+   font-weight: bold;
+   padding: 10px;
+   text-align: center;
+   margin-top: 20px;
+   background-size: cover;
+  
+  
+        
+    }
+
+    .loginSection > .loginForm > form > .email{
+        background: url("../assets/email.png") no-repeat right 10px center ;
+        background-size: 20px;
+        
+        background-color: #666;
+        border: 1px solid #666;
+    }
+
+    .loginSection > .loginForm > form > .pass{
+        background: url("../assets/lock.png") no-repeat right 10px center ;
+        background-size: 20px;
+        background-color: #666;
+        border: 1px solid #666;
+    }
+    #alert {
+        color: rgb(226, 57, 57);
+        font-size: 12px;
+        margin-left: 20px;
+        display: none;
+        }
+    .loginSection >.loginForm form > input{
+      
+        width: 95%;
+        height:40px;
+        margin: 10px;
+        background-color: #666;
+        border: 1px solid #666;
+        color: #fff;
+        padding: 10px;
+        font-size: 12px;
+    
+         }
+
+         .loginSection >.loginForm form > input::placeholder{
+      
+            color: #fff;
+            padding: 10px;
+             }
+
+             .loginSection >.loginForm form > .loginBtn{
+      
+                width: 95%;
+                height:40px;
+                margin: 10px;
+                background-color: #C0D05F;
+                border: 1px solid #C0D05F;
+                color: #fefefe;
+                
+            
+                 }
+                 
+             .loginSection >.loginForm > .forgot{
+      
+                
+                color: #C0D05F;
+                margin-left: 5%;
+                
+                
+            
+                 }
+
+                 footer{
+                    margin-top:15%;
+                    text-align: center;
+                    color:#cccc;
+                }
+                .social{
+                    height:15px;
+                }
+                 
+                 .loginSection >.loginForm >p{
+      
+                
+                    color: #ccc;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                   text-align: center;
+                    
+                
+                     }
+
+                     label{
+                         color: #C0D05F;
+                         margin-left: 2%;
+                     }
+                     .loginSection >.loginForm  > a > .registerBtn{
+      
+                        width: 95%;
+                        height:40px;
+                        margin: 10px;
+                        background-color: #3333;
+                        border: 1px solid #C0D05F;
+                        color: #C0D05F;
+                        
+                    
+                         }
+                         .loginSection >.loginForm  > a > .registerBtn:hover{
+      
+                            background-color: #C0D05F;
+                             color: #fefefe;
+                        
+                             }
+                         .registerBtn {
+                             color: #C0D05F;
+                             text-decoration: none;
+                             border: 1px solid #C0D05F;
+                         }
+                         
+                        .loginBtn{
+                            background-color: #C0D05F;
+                            color: #fefefe;
+                            text-decoration: none;
+                        }
+                        
+
+                         
+                        .back{
+                            margin-left: 5%;
+                            margin-top: 10px;
+                        }
+                         .back a{
+                             color:#C0D05F;
+                             text-decoration: none;
+                             
+                           
+
+                         }
+@media only screen and (max-width:870px)  {
+
+    .back a{
+        
+        margin-left: 5%;
+      
+
+    }
+    label{
+        color: #C0D05F;
+        margin-left:5%;
+    }
+         
+    .loginSection >.loginForm > .forgot{
+      
+                
+       
+        margin-left: 5%;
+        
+    
+         }
+
+         .back{
+             margin-left: 5%;
+         }
+
+    .loginSection{
+   
+        width:80%;
+        height:600px;
+       
+        margin-left: 10%;
+      
+       
+        
+    }
+    .loginSection > .loginIcon > img{
+        height: 100px;
+        margin-left: 30%;
+       
+            
+        }
+*{
+    font-size: 12px;
+}
+
+}

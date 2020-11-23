@@ -1,0 +1,280 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>MyRezume || Admin-dashboard </title>
+
+    <link rel="stylesheet" type="text/css" href="../../css/admin-dashboard.css" />
+    <script src="ckeditor/ckeditor.js"></script>
+
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="logo">
+            <a href="#">MY<span> REZUME</span></a>
+        </div>
+        <div class="Profile">
+            <img class="chat" src="../../assets/chat (2).png" alt="">
+            <img class="pic" src="../../assets/c.jpg" alt="">
+        </div>
+    </div>
+
+    <a href="#" class="mobile">MENU</a>
+
+
+    <div id="container">
+        <div class="sidebar">
+            <ul id="nav">
+                <li> <a href="admin-dashboard.html">Dashboard</a></li>
+                <li> <a href="blog-post.html">Blog Post</a></li>
+                <li> <a href="users.html" class="selected">Users</a></li>
+                <li> <a href="reviews.html">Reviews</a></li>
+                <li> <a href="profile.html">Profile</a></li>
+                <li> <a href="../login.html">Logout</a></li>
+
+
+            </ul>
+
+
+        </div>
+        <div class="content">
+            <div class="contentHeader">
+                <div class="headerContainer">
+                    <h1>Dashboard</h1> <img src="../../assets/admin.png" alt="">
+
+
+                </div>
+                <div class="consumptionContainer">
+                    <div class="consumption">
+                        <div class="box-top">Disk Space Used</div>
+                        <div class="progress">
+                            <div class="progressRate"></div>
+                        </div>
+                    </div>
+                    <div class="consumption">
+                        <div class="box-top"> Bandwidth Used</div>
+                        <div class="progress">
+                            <div class="progressRate"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="banner">
+                <p> <a href="admin-dashboard.html"> DASHBOARD</a> / USERS </p>
+            </div>
+
+
+            <div class="createPostSection">
+                <button id="createUser">Create New User</button>
+            </div>
+
+
+            <div id="addUser">
+
+                <div class="modal-content">
+                    <form>
+                        <div class="modal-header">
+
+                            <h4 class="modalTitle">Add User</h4>
+                            <button type="button" id="close" class="closeBtn"><span>&times;</span></button>
+                        </div>
+                        <div class="modalBody">
+                            <div class="form-group">
+                                <label>User Name</label>
+
+                                <input type="text" class="input" placeholder="User name">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Page body</label>
+
+                                <input type="text" class="input" placeholder="user Email">
+
+                            </div>
+                            <div class="checkbox">
+
+                                <label>
+                                    <input type="checkbox"> Published
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Meta tags</label>
+
+                                <input type="text" class="input" placeholder="add some tags...">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Meta description</label>
+
+                                <input type="text" class="input" placeholder="add meta Description">
+                            </div>
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" id="closeModal" class="footerBtn">Close</button>
+                            <button type="submit" class="saveBtn">Save changes</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+
+            <div class="usersList">
+                <div class="blogsListTitle">
+                    <h5>Users list</h5>
+                </div>
+
+
+
+                <div class="box-panel">
+                    <table class="usersTable">
+
+                        <tr>
+                            <th>profile</th>
+                            <th>Name</th>
+                            <th>Email</th>
+
+                            <th>Time</th>
+                            <th>status</th>
+                            <th>Action</th>
+                        </tr>
+                        <tr>
+                            <td> <img src="../../assets/d.jpg" alt=""></td>
+                            <td> cedrick</td>
+                            <td>Mcstain1639@gmail.com</td>
+
+                            <td>2 min ago</td>
+                            <td class="offline">
+                                Offline
+
+                            </td>
+                            <td><button class="editBtn">Edit</button>
+                                <button class="deleteBtn">Delete</button></td>
+
+                        </tr>
+                        <tr>
+                            <td> <img src="../../assets/c.jpg" alt=""></td>
+                            <td>Mupenzi </td>
+                            <td>Mcstain1@gmail.com</td>
+
+                            <td>5 hrs ago</td>
+                            <td class="online">online
+                            </td>
+                            <td><button class="editBtn">Edit</button>
+                                <button class="deleteBtn">Delete</button></td>
+
+                        </tr>
+                        <tr>
+                            <td> <img src="../../assets/slack.jpg" alt=""></td>
+                            <td>Mupenzi cedrick</td>
+                            <td>Mcstai7@gmail.com</td>
+
+                            <td>2 hrs ago</td>
+                            <td class="offline">Offline</td>
+                            <td><button class="editBtn">Edit</button>
+                                <button class="deleteBtn">Delete</button></td>
+
+                        </tr>
+                        <tr>
+                            <td> <img src="../../assets/d.jpg" alt=""></td>
+                            <td>Mupenzi cedrick</td>
+                            <td>Mcstai7@gmail.com</td>
+
+                            <td>2 hrs ago</td>
+                            <td class="offline">Offline</td>
+                            <td><button class="editBtn">Edit</button>
+                                <button class="deleteBtn">Delete</button></td>
+
+                        </tr>
+                        <tr>
+                            <td> <img src="../../assets/c.jpg" alt=""></td>
+                            <td>Mupenzi cedrick</td>
+                            <td>Mcstai7@gmail.com</td>
+
+                            <td>2 min ago</td>
+                            <td class="online">Offline</td>
+                            <td><button class="editBtn">Edit</button>
+                                <button class="deleteBtn">Delete</button></td>
+
+                        </tr>
+                        <tr>
+                            <td> <img src="../../assets/slack.jpg" alt=""></td>
+                            <td> cedrick</td>
+                            <td>Mcstai7@gmail.com</td>
+
+                            <td>2 hrs ago</td>
+                            <td class="online">Offline</td>
+                            <td><button class="editBtn">Edit</button>
+                                <button class="deleteBtn">Delete</button></td>
+
+                        </tr>
+                        <tr>
+                            <td> <img src="../../assets/d.jpg" alt=""></td>
+                            <td>Mupenzi </td>
+                            <td>Mcstai7.com</td>
+
+                            <td>4 min ago</td>
+                            <td class="offline">Offline</td>
+                            <td><button class="editBtn">Edit</button>
+                                <button class="deleteBtn">Delete</button></td>
+
+                        </tr>
+                        <tr>
+                            <td> <img src="../../assets/c.jpg" alt=""></td>
+                            <td>Mupenzi cedrick</td>
+                            <td>Mcstai7@gmail</td>
+
+                            <td>1 hr ago</td>
+                            <td class="online">Offline</td>
+                            <td><button class="editBtn">Edit</button>
+                                <button class="deleteBtn">Delete</button></td>
+
+                        </tr>
+
+
+                    </table>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.0.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.0.1/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/custom.js"></script>
+</body>
+
+</html>

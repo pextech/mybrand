@@ -1,0 +1,328 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>MyRezume || Admin-dashboard </title>
+
+    <link rel="stylesheet" type="text/css" href="../../css/admin-dashboard.css" />
+    <script src="ckeditor/ckeditor.js"></script>
+
+</head>
+
+<body>
+
+    <div id="header">
+        <div class="logo">
+            <a href="#">MY<span> REZUME</span></a>
+        </div>
+        <div class="Profile">
+            <img class="chat" src="../../assets/chat (2).png" alt="">
+            <img class="pic" src="../../assets/c.jpg" alt="">
+        </div>
+    </div>
+
+    <a href="#" class="mobile">MENU</a>
+
+
+    <div id="container">
+        <div class="sidebar">
+            <ul id="nav">
+                <li> <a href="admin-dashboard.html">Dashboard</a></li>
+                <li> <a href="blog-post.html" class="selected">Blog Post</a></li>
+                <li> <a href="users.html">Users</a></li>
+                <li> <a href="reviews.html">Reviews</a></li>
+                <li> <a href="profile.html">Profile</a></li>
+                <li> <a href="../login.html">Logout</a></li>
+
+
+            </ul>
+
+
+        </div>
+        <div class="content">
+            <div class="contentHeader">
+                <div class="headerContainer">
+                    <h1>Dashboard</h1> <img src="../../assets/admin.png" alt="">
+
+
+                </div>
+                <div class="consumptionContainer">
+                    <div class="consumption">
+                        <div class="box-top">Disk Space Used</div>
+                        <div class="progress">
+                            <div class="progressRate"></div>
+                        </div>
+                    </div>
+                    <div class="consumption">
+                        <div class="box-top"> Bandwidth Used</div>
+                        <div class="progress">
+                            <div class="progressRate"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="banner">
+                <p> <a href="admin-dashboard.html"> DASHBOARD</a> / BLOG POST </p>
+            </div>
+
+
+
+
+
+            <div class="createPostSection">
+                <button id="createPost">Create Post</button>
+            </div>
+
+
+            <div id="addPage">
+
+                <div class="modal-content">
+                    <form>
+                        <div class="modal-header">
+
+                            <h4 class="modalTitle">Add page</h4>
+                            <button type="button" id="close" class="closeBtn"><span>&times;</span></button>
+                        </div>
+                        <div class="modalBody">
+                            <div class="form-group">
+                                <label>Post title</label>
+
+                                <input type="text" class="input" placeholder="Page title">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Page body</label>
+
+                                <textarea name="editor1" class="input" placeholder="Page body"></textarea>
+
+                            </div>
+                            <div class="checkbox">
+
+                                <label>
+                                    <input type="checkbox"> Published
+                                </label>
+                            </div>
+
+                            <div class="form-group">
+                                <label>Meta tags</label>
+
+                                <input type="text" class="input" placeholder="add some tags...">
+                            </div>
+
+                            <div class="form-group">
+                                <label>Meta description</label>
+
+                                <input type="text" class="input" placeholder="add meta Description">
+                            </div>
+
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" id="closeModal" class="footerBtn">Close</button>
+                            <button type="submit" class="saveBtn">Save changes</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+
+            <div class="blogsList">
+
+                <div class="blogsListTitle">
+                    <h5>Recent Blogs posted by Admin</h5>
+                </div>
+                <div class="blogContainer">
+                    <div class="blog">
+                        <div class="blogPicture">
+                            <img src="../../assets/test122.jpg" alt="">
+                        </div>
+                        <div class="blogTitle">
+                            Code by day Hack by night
+                        </div>
+                        <div class="blogDescription">
+                            <p>we code by day and we hack by night indeed , we are invicimbles
+                                we code by day and we hack by night indeed , we are invicimbles
+                                ...</p>
+                        </div>
+                        <div class="blogTime">
+                            <p>19 march 2020</p>
+                        </div>
+                        <div class="authorDetails">
+                            <img src="../../assets/facebook (1).png" alt="">
+                            <img src="../../assets/twitter.png" alt="">
+                            <img src="../../assets/linkedin.png" alt="">
+                        </div>
+
+                        <div class="blogAction">
+                            <div class="actionContainer">
+                                <div class="view">
+                                    <button class="viewBtn">View</button>
+                                </div>
+                                <div class="edit">
+                                    <button class="editBtn">Edit</button>
+                                </div>
+                                <div class="delete">
+                                    <button class="deleteBtn">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="blog">
+                        <div class="blogPicture">
+                            <img src="../../assets/test13.jpg" alt="">
+                        </div>
+                        <div class="blogTitle">
+                            Code by day Hack by night
+                        </div>
+                        <div class="blogDescription">
+                            <p>we code by day and we hack by night indeed , we are invicimbles
+                                we code by day and we hack by night indeed , we are invicimbles
+                                ...</p>
+                        </div>
+                        <div class="blogTime">
+                            <p>19 march 2020</p>
+                        </div>
+                        <div class="authorDetails">
+                            <img src="../../assets/facebook (1).png" alt="">
+                            <img src="../../assets/twitter.png" alt="">
+                            <img src="../../assets/linkedin.png" alt="">
+                        </div>
+                        <div class="blogAction">
+                            <div class="actionContainer">
+                                <div class="view">
+                                    <button class="viewBtn">View</button>
+                                </div>
+                                <div class="edit">
+                                    <button class="editBtn">Edit</button>
+                                </div>
+                                <div class="delete">
+                                    <button class="deleteBtn">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <div class="blogPicture">
+                            <img src="../../assets/test14.jpg" alt="">
+                        </div>
+                        <div class="blogTitle">
+                            Code by day Hack by night
+                        </div>
+                        <div class="blogDescription">
+                            <p>we code by day and we hack by night indeed , we are invicimbles
+                                we code by day and we hack by night indeed , we are invicimbles
+                                ...</p>
+                        </div>
+                        <div class="blogTime">
+                            <p>19 march 2020</p>
+                        </div>
+                        <div class="authorDetails">
+                            <img src="../../assets/facebook (1).png" alt="">
+                            <img src="../../assets/twitter.png" alt="">
+                            <img src="../../assets/linkedin.png" alt="">
+                        </div>
+                        <div class="blogAction">
+                            <div class="actionContainer">
+                                <div class="view">
+                                    <button class="viewBtn">View</button>
+                                </div>
+                                <div class="edit">
+                                    <button class="editBtn">Edit</button>
+                                </div>
+                                <div class="delete">
+                                    <button class="deleteBtn">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <div class="blogPicture">
+                            <img src="../../assets/test5.jpg" alt="">
+                        </div>
+                        <div class="blogTitle">
+                            Code by day Hack by night
+                        </div>
+                        <div class="blogDescription">
+                            <p>we code by day and we hack by night indeed , we are invicimbles
+                                we code by day and we hack by night indeed , we are invicimbles
+                                ...</p>
+                        </div>
+                        <div class="blogTime">
+                            <p>19 march 2020</p>
+                        </div>
+                        <div class="authorDetails">
+                            <img src="../../assets/facebook (1).png" alt="">
+                            <img src="../../assets/twitter.png" alt="">
+                            <img src="../../assets/linkedin.png" alt="">
+                        </div>
+                        <div class="blogAction">
+                            <div class="actionContainer">
+                                <div class="view">
+                                    <button class="viewBtn">View</button>
+                                </div>
+                                <div class="edit">
+                                    <button class="editBtn">Edit</button>
+                                </div>
+                                <div class="delete">
+                                    <button class="deleteBtn">Delete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="blogPagination">
+                <div class="pagination">
+                    <ul>
+                        <li>
+                            <a href="#">01</a>
+                        </li>
+                        <li>
+                            <a href="#">02</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">03</a>
+                        </li>
+                        <li>
+                            <a href="#">04</a>
+                        </li>
+                        <li>
+                            <a href="#">05</a>
+                        </li>
+                        <li>
+                            <a href="#">>></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script>
+
+        CKEDITOR.replace('editor1');
+
+    </script>
+
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/custom.js"></script>
+</body>
+
+</html>

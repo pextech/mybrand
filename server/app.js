@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 app = express();
 
 
-const contactRoute = require('./routes/contactRoute');
+const registerRoute = require('./routes/registerRoute');
 
 const URI = 'mongodb+srv://pextech:Mc1639_1639@cluster0.fyxsl.mongodb.net/mybrand?retryWrites=true&w=majority';
 mongoose.connect(URI,{useNewUrlParser: true, useUnifiedTopology: true}).then((result)=>{
@@ -41,7 +41,7 @@ app.use((req,res,next)=>{
     next();
 })
 
-app.use('/',contactRoute);    
+app.use('/register',registerRoute);    
 
 
 

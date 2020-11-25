@@ -1,11 +1,11 @@
 const express = require ('express');
 const router = express.Router();
 
-const review = require('../controllers/contactController');
+const review = require('../controllers/commentController');
 
 
 
-router.post('/',review.review_post);
+router.post('/',review.comment_post);
 
 
 

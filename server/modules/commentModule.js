@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const contactSchema = new Schema({
+const commentSchema = new Schema({
 
     name:{
         type: String,
@@ -13,10 +13,6 @@ const contactSchema = new Schema({
         required: true,
         match: /(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/
     },
-    phone:{
-        type: Number,
-        required: true
-    },
     message:{
         type: String,
         required: true
@@ -24,6 +20,6 @@ const contactSchema = new Schema({
 
 })
 
-const Contact = mongoose.model('Contact',contactSchema);
+const Comment = mongoose.model('Contact',commentSchema);
 
-module.exports = Contact;
+module.exports = Comment;

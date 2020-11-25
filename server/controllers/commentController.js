@@ -1,22 +1,21 @@
 
 
-const Contact = require('../modules/reviewModule');
+const Comment = require('../modules/commentModule');
 
 
-const review_post = (req,res,next)=>{
+const comment_post = (req,res,next)=>{
 
-    const contact = new Contact({
+    const comment = new Comment({
 
         name : req.body.name,
         email : req.body.email,
-        phone : req.body.phone,
         message : req.body.message
 
     });
-    contact.save().then((result)=>{
+    comment.save().then((result)=>{
 
         res.status(201).json({
-            message: 'sent successfuly'
+            message: 'Commented successfuly'
         })
         console.log(result);
 
@@ -28,6 +27,6 @@ const review_post = (req,res,next)=>{
 
 module.exports = {
     
-    review_post,
+    comment_post
    
 }

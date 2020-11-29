@@ -3,7 +3,7 @@ const jwt =  require('jsonwebtoken');
 const Blog = require('../modules/blogModel');
 
 
-const review_post = (req,res,next)=>{
+const review_post_add = (req,res,next)=>{
 
     const contact = new Blog({
 
@@ -26,6 +26,6 @@ const review_post = (req,res,next)=>{
 
 module.exports = {
     
-    review_post,
+    review_post_add,
    
 }

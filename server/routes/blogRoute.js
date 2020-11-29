@@ -36,7 +36,7 @@ const review = require('../controllers/blogController');
 const checkAuth = require('../auth/checkAuth.js');
 
 
-router.post('/',checkAuth,upload.single('blogImage'),review.review_post);
+router.post('/',checkAuth,upload.single('blogImage'),review.review_post_add);
 
 
 

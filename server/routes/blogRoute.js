@@ -9,7 +9,7 @@ const review = require('../controllers/blogController');
 const checkAuth = require('../auth/checkAuth.js');
 
 
-router.get('/',checkAuth,review.review_post);
+router.delete('/:id',checkAuth,review.review_post_delete);
 
 
 

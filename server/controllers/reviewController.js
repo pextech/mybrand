@@ -2,35 +2,16 @@
 const  mongoose  = require('mongoose');
 const Contact = require('../modules/reviewModule');
 
-const get_review = (req,res,next)=>{
+const delete_review = (req,res,next)=>{
 
-  Contact.find().then((result)=>{
+ id = req.params.id;
 
-        const reviews = {
+  Contact.findByIdAndDelete(id).then((result)=>{
 
-            count : result.length,
-            contact : result.map((doc)=>{
-
-                return { 
-                id: doc._id,
-                name: doc.name,
-                email: doc.email,
-                phone: doc.phone,
-                message: doc.message,
-                request:{
-
-                    type:'GET',
-                    url:'http://localhost:3000/admin/reviews/'+ doc._id
-                }
-            }
-            })
-
-
-
-        }
-
-     res.status(200).json(reviews)
-    
+    res.status(200).json({
+        message: 'deleted Review'
+    })
+        
 
   })
   .catch((err)=>{res.status(500).json({error:err})})
@@ -40,6 +21,6 @@ const get_review = (req,res,next)=>{
 
 module.exports = {
     
-get_review
+delete_review
    
 }

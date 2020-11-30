@@ -10,7 +10,7 @@ const router = express.Router();
 
 
 
-router.get('/',checkAuth,review.get_review);
+router.delete('/:id',checkAuth,review.delete_review);
 
 
 

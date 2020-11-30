@@ -36,7 +36,7 @@ const checkAuth = require('../auth/checkAuth.js');
 
 
 
-router.put('/:id',upload.single('blogImage'),review.review_post_update);
+router.put('/:id',checkAuth,upload.single('blogImage'),review.review_post_update);
 
 
 

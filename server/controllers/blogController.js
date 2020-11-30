@@ -1,15 +1,27 @@
 const checkAuth = require('../auth/checkAuth.js');
 const jwt =  require('jsonwebtoken');
 const Blog = require('../modules/blogModel');
+// const { set } = require('mongoose');
 
 
-const review_post_delete = (req,res,next)=>{
+const review_post_update = (req,res,next)=>{
 
     const id = req.params.id;
-   Blog.findByIdAndDelete({_id: id}).then(result=>{
+   
+   Blog.updateOne({_id: id},{ $set:{
+
+            blogImage: req.file.filename,
+            title: req.body.title,
+            description: req.body.description
+            
+        
+           
+    }}).then(result=>{
+
+   
        res.status(200).json({
-           message:'removed blog',
-           blog: result
+           message:'updated blog',
+           
        })
    })
    
@@ -21,6 +33,6 @@ const review_post_delete = (req,res,next)=>{
 
 module.exports = {
     
-    review_post_delete,
+    review_post_update,
    
 }

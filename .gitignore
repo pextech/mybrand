@@ -1,6 +1,7 @@
 
 # Dependency directories
-/server
+/server/node_modules
+
 jspm_packages/
 
 # Logs
